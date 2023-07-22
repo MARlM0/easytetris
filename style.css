@@ -1,0 +1,20 @@
+body {
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(10, 30px);
+  grid-template-rows: repeat(20, 30px);
+  grid-gap: 1px;
+  border: 1px solid #000;
+  margin: 0 auto;
+  width: 310px;
+  background-color: #ddd;
+}
+
+.cell {
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+}
